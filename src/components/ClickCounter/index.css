@@ -1,0 +1,45 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.bgContainer {
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 350px;
+  width: 350px;
+}
+.card {
+  text-align: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.count {
+  color: darkmagenta;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+.button {
+  height: 40px;
+  width: 120px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  margin-right: 25px;
+}
