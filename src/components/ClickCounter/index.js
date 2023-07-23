@@ -3,7 +3,8 @@
 import './index.css'
 
 const ClickCounter = props => {
-  const {title, description, price, sold, category, image, dateOfSale} = props
+  const {values}=props
+  const {title, description, price, sold, category, image, dateOfSale} = values
   return (
     <li>
       <h1>{title}</h1>
